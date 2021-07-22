@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <h1> Is it raining?..</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="input-group">
+                    <input id="input" type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button" id="searchBtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <button class="btn border-dark mb-3 bg-danger" type="button" id="clear">Clear history</button>
+                <form id="history"></form>
+            </div>
+            <div>
+                <div class="row mr-0">
+                    <div class="col-12 border border-dark m-3">
+                        <div class="row bg-success">
+                            <div class="col-12 bg-success">
+                                <span id="city-name" class="city-name align-middle"></span>
+                                <img id="icon" src="placeholder" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="temp"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="humidity"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="wind"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <p id="UV"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Here's the Forecast for the Next 5 Days</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col forecast bg-success text-white ml-3"></div>
+                    <div class="col forecast bg-success text-white ml-3"></div>
+                    <div class="col forecast bg-success text-white ml-3"></div>
+                    <div class="col forecast bg-success text-white ml-3"></div>
+                    <div class="col forecast bg-success text-white ml-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
