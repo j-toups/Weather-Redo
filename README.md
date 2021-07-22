@@ -16,5 +16,6 @@ https://j-toups.github.io/Weather-Redo/
 ## Contributor
 Joseph Toups
 
-##Contact
+## Contact
+
 Email: coderatlaw@gmail.com
