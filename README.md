@@ -7,9 +7,9 @@ A Weather App that allows you to input a city name to search. Upon clicking gree
 ## Buit With
 CSS, HTML, and Javascript
 
-##Deployed 
+## Deployed 
 
-![alt text]()
+![alt text](https://github.com/j-toups/Weather-Redo/blob/main/Capture.PNG)
 
 ## Contributor
 Joseph Toups
